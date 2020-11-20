@@ -1,0 +1,40 @@
+
+
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+
+
+
+
+logging:
+  level:
+    org.springframework.web: TRACE
+    cn.vpclub: DEBUG
+
+#spring:
+#  profiles:
+#    include:
+#      - web
+##      - swagger
+#      - cors
+#      - locale
+##      - hazelcast
+##      - kafka
+#      - logging
+#      - logging-file
+
+#debug: true可以通过日志看到哪些自动配置类是否生效
+debug: false
+
+
+app:
+  verbose-message: true
+
+locale:
+  aop-class: cn.xmp.moses.locale.aop.MessageAspectImpl
+  basenames:
+    - classpath:i18n/messages
+    - classpath:i18n/validatorMessages
+    - classpath:i18n/commonMessages
