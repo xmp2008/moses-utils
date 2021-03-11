@@ -6,7 +6,7 @@
  $ mvn spring-boot:run
 ```
 ##
-> 本 demo  演示如何使用 Spring Boot 写一个hello world
+> 本 demo  演示如何使用 Spring Boot 写一个hello world!
 
 ### pom.xml
 ```xml
